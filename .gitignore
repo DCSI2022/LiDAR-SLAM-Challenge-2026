@@ -1,0 +1,41 @@
+# Competition data is distributed via controlled channels, not GitHub.
+data/
+datasets/
+dataset/
+raw/
+calib/
+calibration/
+ground_truth/
+gt/
+truth/
+results/
+submissions/
+submission/
+release_data/
+
+# Large sensor/data artifacts.
+*.bag
+*.mcap
+*.pcap
+*.pcd
+*.ply
+*.las
+*.laz
+*.bin
+*.npy
+*.npz
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+
+# Local/runtime files.
+__pycache__/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+
+# Local Codex metadata
+.agents/
+.codex/
