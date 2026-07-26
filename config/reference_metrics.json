@@ -1,0 +1,47 @@
+{
+  "result_name": "Public reference result",
+  "scoring_protocol": "EVO association; one SE(3) alignment per scene; 1/5/10 m RTE",
+  "reference_position_frame": "Airy LiDAR IMU origin",
+  "aggregate": {
+    "total_score": 61.37093502233761,
+    "auc": 0.9824542138012767,
+    "ate_rmse_m": 1.1542008644767718,
+    "rte_pct": 33.05656442344478,
+    "rte_by_distance_pct": {
+      "1m": 52.10209534919835,
+      "5m": 18.970066681964667,
+      "10m": 12.436452145155982
+    },
+    "completion_pct": 99.95206136145734
+  },
+  "scenes": {
+    "scene_0001": {
+      "auc": 0.9865015079433104,
+      "ate_rmse_m": 1.2511764427020553,
+      "rte_pct": 24.982992881949873,
+      "rte_by_distance_pct": {
+        "1m": 38.95757044936986,
+        "5m": 14.748569482184726,
+        "10m": 10.180673932866847
+      },
+      "completion_pct": 100.0
+    },
+    "scene_0002": {
+      "auc": 0.976606611756333,
+      "ate_rmse_m": 0.9974635244477339,
+      "rte_pct": 41.18105976797026,
+      "rte_by_distance_pct": {
+        "1m": 65.35414180180672,
+        "5m": 23.306716710079254,
+        "10m": 14.818714690003764
+      },
+      "completion_pct": 99.90412272291466
+    }
+  },
+  "tau_ate_m": 1.1542008644767718,
+  "tau_rte_pct": 33.05656442344478,
+  "track_config_sha256": {
+    "lidar_inertial": "07b7ebc36fc3d709ba9ce57afeabba05fefb07abebbde2bef842ee900f0a15fc",
+    "lidar_visual_inertial": "ccec55fec123eb8eecc738e978923bfa1161f43ed540ab002f162891ca0fc674"
+  }
+}

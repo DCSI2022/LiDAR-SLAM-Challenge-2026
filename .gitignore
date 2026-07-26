@@ -4,7 +4,6 @@ datasets/
 dataset/
 raw/
 calib/
-calibration/
 ground_truth/
 gt/
 truth/
@@ -12,6 +11,11 @@ results/
 submissions/
 submission/
 release_data/
+reference_data/
+competition_bundles/
+release/
+dist/
+private/
 
 # Large sensor/data artifacts.
 *.bag
